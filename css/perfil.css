@@ -71,7 +71,7 @@ div{
 
 li{
     margin:1rem 0rem 1rem 0.5rem; 
-    color: white;
+    color: white; 
 }
 
 h4{
@@ -96,7 +96,7 @@ h4{
     justify-content: center;
 
     width:90%;
-    margin-top:7rem;
+    margin-top:5rem;
     padding:1rem 0rem 1rem 0rem;
 
     border: 0.1rem solid black;
