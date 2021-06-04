@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+
+    font-family: 'Source Sans Pro', 'Roboto', sans-serif;
+}
+
+header{  
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    align-items: center; 
+    height: 3rem;
+    border-bottom: .1rem solid black; 
+
+    background-color: black; 
+}
+
+.img_menu{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 3rem; 
+    height: 3rem;
+}
+
+.b_back{
+    position:absolute;
+    left:3rem;
+    top:0.8rem;
+
+    margin:0.2rem;
+    padding:0.1rem 0.1rem 0.1rem 0.4rem; 
+    border: .01rem solid white;
+
+    width: 2.2rem;
+
+    font-size: 0.7rem;
+
+    background-color: #808080 ;
+    text-decoration:none;
+    color:black;
+}
+
+
+
+
+

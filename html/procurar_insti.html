@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Procurar instituição</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/header_com_back.css">
+        <link rel="stylesheet" href="../css/procurar_insti.css">
+        <script src="../js/procurar_insti.js"></script>
+        <script src="../js/procurar_insti2.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto&family=Roboto+Slab&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>  
+        <header>
+            <img class="img_menu" src="../img/menu.png" alt="botão de menu">
+            <h3><a class="b_back" href="professor.html">BACK</a></h3>
+            <h1>Procurar instituição</h1>
+        </header> 
+        <main> 
+            <h3>Filtros:</h3>
+            <ul>
+                <li class="formulario">
+                    <form> 
+                        <img class="i" src="../img/i.png" alt="botão de info">
+                        <div class="janela">
+                            <p>
+                                Lugar onde busca encontrar as instituições. Pode ser uma cidade, região, bairro, etc. (Ex: Curitiba, Itaperuçu, Tacanissa)
+                            </p>
+                            <p class="fechar">
+                                FECHAR
+                            </p>
+                        </div>
+                        <label for="local">Local:</label>
+                        <input class="local" type="text" id= "local" placeholder="Digite aqui">
+                    </form> 
+                </li>
+                <li class="formulario">
+                    <form> 
+                        <img class="i" src="../img/i.png" alt="botão de info">
+                        <div class="janela">
+                            <p>
+                                Nível de ensino. (Ex: Fundamental, Médio, Superior)
+                            </p>
+                            <p class="fechar">
+                                FECHAR
+                            </p>
+                        </div>
+                        <label for="nivel">Nível de ensino:</label>
+                        <input class="nivel" type="text" id= "nivel" placeholder="Digite aqui">
+                    </form> 
+                </li>
+                <li class="formulario">
+                    <form> 
+                        <img class="i" src="../img/i.png" alt="botão de info">
+                        <div class="janela">
+                            <p>
+                                Curso de ensino. (Ex: Física, Química, Português)
+                            </p>
+                            <p class="fechar">
+                                FECHAR
+                            </p>
+                        </div>  
+                        <label for="curso">Curso:</label>
+                        <input class="curso" type="text" id= "curso" placeholder="Digite aqui">
+                    </form> 
+                </li>
+                <li class="formulario">
+                    <label >Faixa salarial:</label>
+                    <div>
+                        <form>
+                            <div class="tudo">
+                                <p>R$</p>
+                                <input class="dimdim1" type="text"  placeholder="">
+                            </div>
+                        </form> 
+                        <p class="barra">-</p>
+                        <form>  
+                            <div class="tudo">
+                                <p>R$</p>
+                                <input class="dimdim2" type="text"  placeholder="">
+                            </div>
+                        </form> 
+                    </div>
+                </li> 
+            </ul>
+            <ul class="botao_ir">
+                <li>
+                    <a class="botao" href="insti_disp.html" >Ir</a>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
